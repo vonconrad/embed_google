@@ -1,5 +1,4 @@
-require 'rubygems'
-require 'bundler/setup'
+require 'embed_google/analytics'
 
 module EmbedGoogle
   unless const_defined?(:VERSION)
