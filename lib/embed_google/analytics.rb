@@ -11,4 +11,3 @@ module EmbedGoogle
     end
   end
 end
-
