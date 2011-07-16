@@ -8,6 +8,7 @@ module EmbedGoogle
 
     def initialize(id=nil, options={})
       self.account_id = id || self.class.id
+      raise ArgumentError, 'Account ID is required' unless account_id
     end
   end
 end
